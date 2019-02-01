@@ -23,7 +23,8 @@ nav {
  }
 
  li {
-   display: inline;
+   display: block;
+   width: 60px;
    text-align: center;
  }
 
