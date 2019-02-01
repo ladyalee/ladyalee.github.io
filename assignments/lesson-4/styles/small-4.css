@@ -7,10 +7,6 @@ body {
     background-color:#f0fff3;
   }
 
- nav {
-   background-color: #c6f1e7;
- } 
-
  footer {
    background-color: #fa4659;
  }
@@ -22,6 +18,7 @@ body {
  }
 
  li {
+   display: inline;
    text-align: center;
  }
 
