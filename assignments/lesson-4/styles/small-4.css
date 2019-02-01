@@ -1,7 +1,15 @@
 /* html selectors */
+header {
+  background-color: #11cbd7;
+}
+
 body {
     background-color:#f0fff3;
   }
+
+ nav {
+   background-color: #c6f1e7;
+ } 
 
 
 /*class selectors */
