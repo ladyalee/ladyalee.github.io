@@ -9,6 +9,7 @@ body {
 
  nav {
    background-color: #c6f1e7;
+   list-style-type: none;
  } 
 
  footer {
