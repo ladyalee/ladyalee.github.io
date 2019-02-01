@@ -9,7 +9,6 @@ body {
 
  nav {
    background-color: #c6f1e7;
-   list-style-type: none;
  } 
 
  footer {
@@ -18,6 +17,12 @@ body {
 
  ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
+ }
+
+ li {
+   text-align: center;
  }
 
 
