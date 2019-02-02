@@ -2,7 +2,11 @@
 
 
 header {
-  background-color: #11cbd7;
+    margin: 10px auto;
+    border: 1px solid #bbb;
+    box-shadow: 0 0 30px #777;
+    text-align: center;
+    background-color: #11cbd7;
   padding: 50px;
   font-family: 'Nanum Gothic', sans-serif;
 }
