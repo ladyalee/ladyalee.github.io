@@ -1,0 +1,49 @@
+header {
+    background-color: #c6f1e7;
+  }
+  
+  body{
+    background-color: #f0fff3;
+  }
+  
+  
+  main {
+    clear: left;
+  }
+  
+  .menu {
+    background-color: #11cbd7;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #11cbd7;
+  }
+  
+  li {
+    float: none;
+      border-right: 1px solid black;
+  }
+  
+  footer {
+    text-align: center;
+    background-color: #fa4659;
+    padding: 15px;
+  }
+  
+  .active {
+    background-color: #fa4659;
+  }
+  
+  @media screen and (max-width: 500px) {
+    .forecast {
+      display: none;
+    }
+  
+    .menu {
+      display: inline;
+    }
+  
+  }
