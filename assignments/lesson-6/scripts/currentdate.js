@@ -32,7 +32,7 @@ monthNames[9] = "October"
 monthNames[10] = "November"
 monthNames[11] = "December"
 
-var month = monthNames[monthNumber]
+var month = monthNames[monthNumber];
 
 //get full year (returns the year)
 var fullYear = today.getFullYear;
@@ -40,6 +40,6 @@ var fullYear = today.getFullYear;
 
 var dayOfWeek = weekday[dayOfWeekNumber];
 
-var fullDate = dayOfWeek = ", " + month + " " + today.getDate() + " " + fullYear;
+var fullDate = dayOfWeek + ' , ' + month + ' ' + today.getDate() + " " + fullYear;
 
 document.getElementById("currentDate").innerHTML = fullDate;
