@@ -14,17 +14,24 @@ header {
   .menu {
     background-color: #11cbd7;
   }
-  
-  ul {
+  .navbar {
+      background-color: #11cbd7;
+  }
+  nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     background-color: #11cbd7;
   }
+
+  nav li {
+    border-right: 1px solid black;
+  }
   
   li {
+    list-style-type: none;
     float: none;
-      border-right: 1px solid black;
+    
   }
   
   footer {
@@ -45,5 +52,5 @@ header {
     .menu {
       display: inline;
     }
-  
+
   }
