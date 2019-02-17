@@ -12,34 +12,33 @@ weekday[4] = "Thursday";
 weekday[5] = "Friday";
 weekday[6] = "Saturday";
 
+var day = weekday[dayOfWeekNumber];
+
 // current date
 var today = new Date();
 
 // get current month
 var monthNumber = today.getMonth();
 
-var monthNames = new Array(12)
-monthNames[0] = "January"
-monthNames[1] = "February"
-monthNames[2] = "March"
-monthNames[3] = "April"
-monthNames[4] = "May"
-monthNames[5] = "June"
-monthNames[6] = "July"
-monthNames[7] = "August"
-monthNames[8] = "September"
-monthNames[9] = "October"
-monthNames[10] = "November"
-monthNames[11] = "December"
+var monthNames = new Array(12);
+monthNames[0] = "January";
+monthNames[1] = "February";
+monthNames[2] = "March";
+monthNames[3] = "April";
+monthNames[4] = "May";
+monthNames[5] = "June";
+monthNames[6] = "July";
+monthNames[7] = "August";
+monthNames[8] = "September";
+monthNames[9] = "October";
+monthNames[10] = "November";
+monthNames[11] = "December";
 
-var month = monthNames[monthNumber];
+var month = monthNames[today.getMonth()];
 
 //get full year (returns the year)
-var fullYear = today.getFullYear;
+var fullYear = today.getFullYear();
 
-
-var dayOfWeek = weekday[dayOfWeekNumber];
-
-var fullDate = dayOfWeek + ' , ' + month + ' ' + today.getDate() + " " + fullYear;
+var fullDate = day + ' , ' + month + ' ' + today.getDate() + " " + fullYear;
 
 document.getElementById("currentDate").innerHTML = fullDate;
