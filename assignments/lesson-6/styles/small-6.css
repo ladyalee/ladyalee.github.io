@@ -53,4 +53,7 @@ header {
       display: inline;
     }
 
+    .collapse {
+        display: none;
+    }    
   }

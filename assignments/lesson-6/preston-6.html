@@ -21,8 +21,8 @@
         </div>
         
         <nav class="navbar">
-            <span class="menu"> <button>&equiv;</button>Menu</span>
-            <ul>
+            <button onclick="toggleMenu()">&equiv;</button>
+            <ul id="menu" class="collapse">
                 <li class="active"><a href="#">Preston</a></li>
                 <li ><a href="#">Soda Springs</a></li>
                 <li ><a href="#">Fish Haven</a></li>
@@ -32,7 +32,14 @@
         </nav>
     </header>
     <main>
-        <img src="images/topphoto.jpg" alt="morning in Idaho" width="300px">
+        <figure>
+            <img src="images/cit230_image_franklinOriginal_400.jpg" alt="Morning in Preston Idaho"
+                 srcset="
+                    images/cit230_image_franklinOriginal_400.jpg 400w,
+                    images/cit230_image_franklin_1200.jpg 1200w">
+            <figcaption>Beautiful Preston, Idaho</figcaption>        
+        </figure>
+       
         <div class="summary">
             <h2>Weather Summary</h2>
                 <ul>
@@ -65,5 +72,6 @@
     </footer>
 </div>
     <script src="scripts/currentdate.js"></script>
+    <script src="scripts/hamburger.js"></script>
 </body>
 </html>

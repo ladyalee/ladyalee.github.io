@@ -22,4 +22,8 @@
         display: block;
         padding: 10px;
       }
+
+      .collapse {
+        display: block;
+    } 
 }
