@@ -26,4 +26,8 @@
     .collapse {
         display: block;
     } 
+
+    #hamburger{
+        display: none;
+    }
 }

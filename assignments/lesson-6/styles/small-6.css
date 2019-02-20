@@ -55,5 +55,9 @@ header {
 
     .collapse {
         display: none;
-    }    
+    }   
+    
+    #hamburger {
+      display: block;
+    }
   }
