@@ -1,5 +1,7 @@
 
 // need to create a script of weekday, day month year
+// current date
+var today = new Date();
 
 // day of week
 var dayOfWeekNumber = today.getDay();
@@ -15,8 +17,6 @@ weekday[6] = "Saturday";
 
 var day = weekday[dayOfWeekNumber];
 
-// current date
-var today = new Date();
 
 // get current month
 var monthNumber = today.getMonth();
