@@ -43,6 +43,10 @@ header {
   .active {
     background-color: #fa4659;
   }
+
+  #galleryContainer {
+    display: grid;
+  }
   
   @media screen and (max-width: 500px) {
     .forecast {
@@ -60,4 +64,9 @@ header {
     #hamburger {
       display: block;
     }
+
+    #galleryContainer {
+      grid-template-columns: 1fr;
+    }
+
   }

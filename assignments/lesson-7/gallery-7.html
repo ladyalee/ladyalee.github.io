@@ -7,6 +7,7 @@
     <title>What to Weather Today</title>
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/small-7.css">
+    <link rel="stylesheet" href="styles/medium-7.css">
     <link rel="stylesheet" href="styles/large-7.css">
     <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
  
@@ -22,46 +23,47 @@
         <nav class="navbar">
             <button id=hamburger onclick="toggleMenu()">&equiv;</button>
             <ul id="menu" class="collapse">
-                <li class="active"><a href="#">Preston</a></li>
-                <li ><a href="#">Soda Springs</a></li>
-                <li ><a href="#">Fish Haven</a></li>
+                <li><a href="preston-7.html">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
                 <li><a href="#">Storm Center</a></li>
-                <li><a href="#">Gallery</a></li>
+                <li class="active"><a href="#">Gallery</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <figure>
+        <div id="galleryContainer">
+            <figure class="highlight">
                 <img src="images/rainboots.jpg" alt="pink rainboots and pink umbrella">
                 <figcaption>When it rains, don't forget your rainboots and umbrella!</figcaption>        
-        </figure>
+            </figure>
 
-        <figure>
+            <figure class="highlight">
             <img src="images/fall.jpg" alt="The Leaves are changing colors">
             <figcaption>The fall colors are breathtaking</figcaption>        
-        </figure>
+            </figure>
 
-        <figure>
+            <figure class="highlight">
                 <img src="images/snow.jpg" alt="little child bundled up outside in the snow">
                 <figcaption>Snow day calls for hat, coat and scarf</figcaption>        
-        </figure>
+            </figure>
 
-        <figure>
+            <figure class="highlight">
                 <img src="images/rainbow.jpg" alt="full rainbow">
                 <figcaption>Maybe you will find gold</figcaption>        
-        </figure>
+            </figure>
 
-        <figure>
+            <figure class="highlight">
                 <img src="images/sunshine.jpg" alt="Sunflower">
                 <figcaption>I can feel the warmth</figcaption>        
-        </figure> 
+            </figure> 
 
-        <figure>
+            <figure class="highlight">
                 <img src="images/rainy.jpg" alt="A bunch of colorful umbrellas">
                 <figcaption>Don't forget your umbrella to help keep you dry</figcaption>        
             </figure>
 
-            </div>
+        </div>
         
     </main>
     <footer>

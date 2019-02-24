@@ -7,6 +7,7 @@
     <title>What to Weather Today</title>
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/small-7.css">
+    <link rel="stylesheet" href="styles/medium-7.css">
     <link rel="stylesheet" href="styles/large-7.css">
     <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
  
@@ -26,7 +27,7 @@
                 <li ><a href="#">Soda Springs</a></li>
                 <li ><a href="#">Fish Haven</a></li>
                 <li><a href="#">Storm Center</a></li>
-                <li><a href="#">Gallery</a></li>
+                <li><a href="gallery-7.html">Gallery</a></li>
             </ul>
         </nav>
     </header>
@@ -38,17 +39,14 @@
                     images/cit230_image_franklin_1200.jpg 1200w">
             <figcaption>Beautiful Preston, Idaho</figcaption>        
         </figure>
-       
-        <div class="summary">
-            <h2>Weather Summary</h2>
-                <ul>
-                    <li>Currently: Cloudy</li>
-                    <li>High: </li>
-                    <li>Wind Chill:</li>
-                    <li>Humidity: </li>
-                    <li>Wind speed:</li>
-                </ul>
-            </div>
+    
+    <h2>Weather Summary</h2>        
+        <div id="weatherSummary">
+            <span>Currently: </span><span id="temp"></span>
+            <span>Wind Speed: </span><span id="windSpeed"></span>
+            <span>Wind Chill: </span><span id="windChill"></span>
+        </div>
+    
         <article class="forecast">
             <h3>5 Day Forecast</h3>
             <figure>
