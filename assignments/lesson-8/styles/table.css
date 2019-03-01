@@ -1,13 +1,30 @@
+table {
+    box-shadow: 2px 5px 5px #628ca6;
+}
+
+table, tr, th, td {
+    border: .5px solid grey;
+}
 body {
-    font-family: Ubuntu, sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
 }
 
-td, th {
-    border: 1px solid black;
+th, #highlight {
+    background-color: #628ca6;
+    color: white;
 }
 
-tfoot td, thead th{
+thead td {
     background-color: #7fb9c2;
+    padding: 5px;
+    font-size: bigger;
+}
+
+tfoot td {
+    background-color: #7fb9c2;
+    font-size: .5em;
+    padding: 5px;
 }
 
 tr:nth-child(even) {
@@ -16,3 +33,4 @@ tr:nth-child(even) {
 tr:nth-child(odd) {
     background-color: #e7ffed;
 }
+
