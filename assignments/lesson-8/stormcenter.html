@@ -32,48 +32,61 @@
         </nav>
     </header>
     <main>
-        <figure>
-            <img src="images/cit230_image_franklinOriginal_400.jpg" alt="Morning in Preston Idaho"
-                 srcset="
-                    images/cit230_image_franklinOriginal_400.jpg 400w,
-                    images/cit230_image_franklin_1200.jpg 1200w">
-            <figcaption>Beautiful Preston, Idaho</figcaption>        
-        </figure>
         
         <form action="thanks.html" method="GET">
-            <label for="fullName">Full Name: </label>
-            <input type="text" id="fullName" name="fullname" required>
-            <br>
-            <label for="email">Email:</label> 
-            <input type="email" id="email" name="email">
-            <br>
-            Phone Number: 
-            <input type="tel" name="phone">
-            <br>
-            Zip Code:
-            <input type="number" name="zipcode" required>
-            <br>
-            Storm Date: 
-            <input type="">
-            <br>
-            Storm Type:
-            <input type="">
-            <br>
-            Storm Severity:
-            <input type="">
-            <br>
-            Storm Region:
-            <br>
-            User in-danger:
-            <br>
-            Submit Button
+            <div>
+                <label for="fullName">Full Name: </label>
+                <input type="text" id="fullName" name="fullname" required>
+            </div>
+
+            <div>
+                <label for="email">Email:</label> 
+                <input type="email" id="email" name="email"/>
+            </div>
+
+            <div>
+                <label for="phone">Phone Number: </label>
+                <input type="tel" name="phone" required/>
+            </div> 
+            
+            <div>
+                <label for="zipCode">Zip Code: </label>
+                <input type="number" name="zipCode" required/>
+            </div> 
+            
+            <div>
+                <label for="stormDate">Storm Date</label>
+                <input type="date" id="stormDate" name="stormDate"/>
+            </div>
+
+            <div>
+                <label for="stormType">Storm Type</label>
+                <input type="datalist" id=stormType" name="stormType"/>
+                choices here
+            </div>
+
+            <div>
+                Storm Severity:
+                <input type="">
+            </div>
+
+            <div>
+                Storm Region:
+            </div>
+
+            <div>
+                User in-danger:
+            </div>
+            
+            <div>
+                <input type="submit" value="Save">
+            </div>
 
         </form>
 
 
     </main>
     <footer>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47365.7262827299!2d-111.9153444084072!3d42.099805311778134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C+ID+83263!5e0!3m2!1sen!2sus!4v1549679745454" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
             <p>&copy; 2019 What To Weather Today | Jennifer Harris</p>
             <span id="currentDate"></span>
     </footer>

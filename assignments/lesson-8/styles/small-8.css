@@ -47,6 +47,10 @@ header {
   #galleryContainer {
     display: grid;
   }
+
+  form div {
+    margin-top: 5px;
+  }
   
   @media screen and (max-width: 500px) {
     .forecast {
