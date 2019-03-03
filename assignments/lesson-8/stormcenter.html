@@ -32,54 +32,70 @@
         </nav>
     </header>
     <main>
-        
+        <h1>Welcome to the Storm Center</h1>
         <form action="thanks.html" method="GET">
             <div>
-                <label for="fullName">Full Name: </label>
+                <label class="storm" for="fullName">Full Name* </label>
                 <input type="text" id="fullName" name="fullname" required>
             </div>
 
             <div>
-                <label for="email">Email:</label> 
-                <input type="email" id="email" name="email"/>
+                <label class="storm"for="email">Email:</label> 
+                <input type="email" id="email" name="email" placeholder="demo@gmail.com"/>
             </div>
 
             <div>
-                <label for="phone">Phone Number: </label>
+                <label class="storm"for="phone">Phone Number* </label>
                 <input type="tel" name="phone" required/>
             </div> 
             
             <div>
-                <label for="zipCode">Zip Code: </label>
+                <label class="storm"for="zipCode">Zip Code* </label>
                 <input type="number" name="zipCode" required/>
             </div> 
             
             <div>
-                <label for="stormDate">Storm Date</label>
+                <label class="storm"for="stormDate">Storm Date</label>
                 <input type="date" id="stormDate" name="stormDate"/>
             </div>
 
             <div>
-                <label for="stormType">Storm Type</label>
-                <input type="datalist" id=stormType" name="stormType"/>
-                choices here
+                <label class="storm"for="stormType">Storm Type</label>
+                <input list="stormType" name="stormType"/>
+                <datalist id="stormType">
+                        <option value="Flash Flood">
+                        <option value="Hail">
+                        <option value="Hurricane">
+                        <option value="Thunderstorm">
+                        <option value="Tornado">
+                </datalist> 
             </div>
 
             <div>
-                Storm Severity:
-                <input type="">
+                <label class="storm"for="stormSeverity">Storm Severity</label>
+                <input type="range" name="stormSeverity" min="1" max="10"/>
             </div>
 
             <div>
-                Storm Region:
+                <label class="storm"for="stormRegion">Storm Region</label>
+                    <select name="region">
+                        <option value="">Please Select</option>
+                        <option value="Preston">Preston</option>
+                        <option value="sodaSprings">Soda Springs</option>
+                        <option value="fishHaven">Fish Haven</option>      
             </div>
 
-            <div>
-                User in-danger:
-            </div>
+             <div>
+                <label class="storm"for="dangerLevel" value="dangerLevel">User in-danger 
+                    <input type="radio" name="dangerLevel" value="yes"> yes
+                    <input type="radio" name="dangerLevel" value="maybe"> maybe
+                    <input type="radio" name="dangerLevel" value="no"> no
+            </div>        
             
-            <div>
-                <input type="submit" value="Save">
+
+            <div>Additional information and comments</div>
+                <textarea rows="4" cols="50"></textarea>
+                <input type="submit" value="Submit" class="submit">
             </div>
 
         </form>

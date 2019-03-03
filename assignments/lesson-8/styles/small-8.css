@@ -52,6 +52,21 @@ header {
     margin-top: 5px;
   }
   
+  /*--------Form Styling---------*/
+  form {
+    padding: 3em;
+  }
+
+  .storm {
+    display: block;
+  }
+
+  .submit {
+    display: block;
+  }
+
+
+
   @media screen and (max-width: 500px) {
     .forecast {
       display: none;
