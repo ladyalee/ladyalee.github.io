@@ -1,0 +1,45 @@
+@media screen and (min-width: 1201px)  {
+    .menu {
+        display: none;
+    }  
+    .forecast {
+        display: block;
+    }
+
+    ul {
+  border: 1px solid black;
+}
+
+    nav li {
+        float: left;
+    }
+
+    li:last-child {
+        border-right: none;
+      }
+
+    li a {
+        display: block;
+        padding: 10px;
+      }
+
+    .collapse {
+        display: block;
+    } 
+
+    #hamburger{
+        display: none;
+    }
+
+    #gallery {
+        box-shadow: 5px 5px 5px 2px black;
+    }
+
+    #galleryContainer {
+        grid-template-columns: 1fr 1fr 1fr;
+      }
+
+    .highlight:hover {
+        box-shadow: 5px 5px 5px 2px grey;
+    }
+}
