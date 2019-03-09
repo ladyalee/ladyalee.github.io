@@ -52,7 +52,17 @@ header {
   form div {
     margin-top: 5px;
   }
+
+  section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 2em;
+    padding: 2em;
+  }
   
+  article {
+    border: 1px solid black;
+  }
   /*--------Form Styling---------*/
   form {
     padding: 3em;
