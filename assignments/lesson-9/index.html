@@ -33,13 +33,7 @@
         </nav>
     </header>
     <main>
-            var requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
-            var request = new XMLHttpRequest();
-            request.open('GET', requestURL);
-            request.responseType = 'json';
-    request.send();
-    request.onload = function() {
-        var superHeroes = request.response;
+          <h1>Town Data</h1>
     
     </main>
     <footer>
@@ -47,7 +41,7 @@
             <p>&copy; 2019 What To Weather Today | Jennifer Harris</p>
             <span id="currentDate"></span>
     </footer>
-
+    <script src="scripts/townData.js"></script>
     <script src="scripts/currentDate.js"></script>
     <script src="scripts/hamburger.js"></script>
     <script src="scripts/windchill.js"></script>
