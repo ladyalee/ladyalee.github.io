@@ -102,49 +102,6 @@ request.onload = function() {
 
 
 
-for (var i = 0; i < townData.towns.length; i++) {
 
-    if (i=== 1 || i === 3 || i === 4 || i=== 5 ) {
-        continue;
-    }
-      var article = document.createElement('article');
-      
-      var h1 = document.createElement('h1');
-      h1.textContent = townData.towns[i].name;
-      
-      var h2 = document.createElement('h2')
-      h2.textContent = townData.towns[i].motto; 
-
-      var h3 = document.createElement('h3');
-      if (townData.towns[i].yearFounded === "1788") {
-
-      }
-      h3.textContent = townData.towns[i].yearFounded; 
-      
-      
-    
-
-     var img = document.createElement("img");
-     if (townData.towns[i].name === "Franklin") {
-        img.setAttribute("src","images/Franklin.jpg");
-     } else if (townData.towns[i].name === "Greenville") {
-         img.setAttribute("src", "images/greenville.jpg");
-     } else if (townData.towns[i].name === "Springfield") {
-        img.setAttribute("src", "images/springfield.jpg");
-     }
          
      
-
-      
-
-      article.appendChild(h1);
-      article.appendChild(h2);
-      article.appendChild(h3);
-      article.appendChild(img);
-      
-      document.getElementById("townInfo").appendChild(article);
-  }
-
-
-document.getElementById("townName1").innerHTML = townData.towns[0].name;
-document.getElementById("townMotto1").innerHTML = townData.towns[0].motto;
