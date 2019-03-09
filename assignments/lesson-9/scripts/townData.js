@@ -115,13 +115,14 @@ for (var i = 0; i < townData.towns.length; i++) {
       var h2 = document.createElement('h2')
       h2.textContent = townData.towns[i].motto; 
 
-      var h3 = document.createElement('h3');
-      if (townData.towns[i].yearFounded === "1788") {
-
-      }
-      h3.textContent = townData.towns[i].yearFounded; 
+      var h3 = document.createElement('h3')
+      h3.textContent = "Year Founded: " + townData.towns[i].yearFounded; 
       
+      var population = document.createElement('h3')
+      population.textContent = "Population: " + townData.towns[i].currentPopulation; 
       
+      var rainfall = document.createElement('h3')
+      rainfall.textContent = "Rainfall: " + townData.towns[i].averageRainfall;
     
 
      var img = document.createElement("img");
@@ -132,14 +133,12 @@ for (var i = 0; i < townData.towns.length; i++) {
      } else if (townData.towns[i].name === "Springfield") {
         img.setAttribute("src", "images/springfield.jpg");
      }
-         
-     
-
-      
 
       article.appendChild(h1);
       article.appendChild(h2);
       article.appendChild(h3);
+      article.appendChild(population);
+      article.appendChild(rainfall);
       article.appendChild(img);
       
       document.getElementById("townInfo").appendChild(article);
