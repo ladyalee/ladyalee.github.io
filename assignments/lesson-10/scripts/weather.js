@@ -1,4 +1,4 @@
-/*var apiWeatherString = 'http://api.openweathermap.org/data/2.5/weather?id=5604473&APPID=93935a5a252e185f91c54e43c8554d32&units=imperial';
+var apiWeatherString = 'http://api.openweathermap.org/data/2.5/weather?id=5604473&APPID=93935a5a252e185f91c54e43c8554d32&units=imperial';
 
 var weatherRequest = new XMLHttpRequest();
 
@@ -14,7 +14,7 @@ weatherRequest.onload = function (){
 document.getElementById("temp").innerHTML = weatherData.main.temp;
 document.getElementById("windSpeed").innerHTML = weatherData.wind.speed;
 document.getElementById("windChill").innerHTML = weatherData.wind.deg;
-}*/
+}
 
 var apiForecastString = 'http://api.openweathermap.org/data/2.5/forecast?id=5604473&APPID=93935a5a252e185f91c54e43c8554d32&units=imperial';
 

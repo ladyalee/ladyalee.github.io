@@ -30,12 +30,12 @@ for (var i = 0; i < townData.towns.length; i++) {
     
 
      var img = document.createElement("img");
-     if (townData.towns[i].name === "Franklin") {
-        img.setAttribute("src","images/Franklin.jpg");
-     } else if (townData.towns[i].name === "Greenville") {
-         img.setAttribute("src", "images/greenville.jpg");
-     } else if (townData.towns[i].name === "Springfield") {
-        img.setAttribute("src", "images/springfield.jpg");
+     if (townData.towns[i].name === "Preston") {
+        img.setAttribute("src","images/Preston.jpg");
+     } else if (townData.towns[i].name === "Soda Springs") {
+         img.setAttribute("src", "images/Sodasprings.jpg");
+     } else if (townData.towns[i].name === "Fish Haven") {
+        img.setAttribute("src", "images/fishHaven.jpg");
      }
 
       article.appendChild(h1);
