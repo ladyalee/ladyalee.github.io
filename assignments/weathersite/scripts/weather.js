@@ -27,7 +27,7 @@ forecastRequest.send();
 forecastRequest.onload = function (){
     var forecastData = forecastRequest.response;
 
-console.log(forecastData);
+console.log("hello");
 
-document.getElementById("temp1").innerHTML = forecastData.list.main.temp_max;
+//document.getElementById("temp1").innerHTML = forecastData.list.main.temp_max;
 }
