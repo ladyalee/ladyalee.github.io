@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>What to Weather Today</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small-9.css">
+    <link rel="stylesheet" href="styles/medium-9.css">
+    <link rel="stylesheet" href="styles/large-9.css">
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
+ 
+</head>
+<body>
+    <header>
+        <img src="images/sun.png" alt="happy sun" width="100">
+        <h1>What to Weather Today</h1>
+        <div class="motto">
+                <h2>To make life just a tad easier in the morning</h2>
+        </div>
+        
+        <nav class="navbar">
+            <button id=hamburger onclick="toggleMenu()">&equiv;</button>
+            <ul id="menu" class="collapse">
+                <li><a href="preston-9.html">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="stormcenter.html">Storm Center</a></li>
+                <li class="active"><a href="#">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="galleryContainer">
+            <figure class="highlight">
+                <img src="images/rainboots.jpg" alt="pink rainboots and pink umbrella">
+                <figcaption>When it rains, don't forget your rainboots and umbrella!</figcaption>        
+            </figure>
+
+            <figure class="highlight">
+            <img src="images/fall.jpg" alt="The Leaves are changing colors">
+            <figcaption>The fall colors are breathtaking</figcaption>        
+            </figure>
+
+            <figure class="highlight">
+                <img src="images/snow.jpg" alt="little child bundled up outside in the snow">
+                <figcaption>Snow day calls for hat, coat and scarf</figcaption>        
+            </figure>
+
+            <figure class="highlight">
+                <img src="images/rainbow.jpg" alt="full rainbow">
+                <figcaption>Maybe you will find gold</figcaption>        
+            </figure>
+
+            <figure class="highlight">
+                <img src="images/sunshine.jpg" alt="Sunflower">
+                <figcaption>I can feel the warmth</figcaption>        
+            </figure> 
+
+            <figure class="highlight">
+                <img src="images/rainy.jpg" alt="A bunch of colorful umbrellas">
+                <figcaption>Don't forget your umbrella to help keep you dry</figcaption>        
+            </figure>
+
+        </div>
+        
+    </main>
+    <footer>
+            <p>&copy; 2019 What To Weather Today | Jennifer Harris</p>
+            <span id="currentDate"></span>
+    </footer>
+
+    <script src="scripts/currentDate.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/windchill.js"></script>
+</body>
+</html>
