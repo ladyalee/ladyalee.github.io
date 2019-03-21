@@ -22,10 +22,12 @@ header {
     margin: 0;
     padding: 0;
     background-color: #11cbd7;
+    
   }
 
   nav li {
     border-right: 1px solid black;
+    border-bottom: 1px solid black;
   }
   
   li {
@@ -34,7 +36,7 @@ header {
     
   }
 
-  h1, h2 {
+  h1, h2, p {
     margin-left: 50px;
   }
   
@@ -67,6 +69,7 @@ header {
   
   article {
     border: 1px solid black;
+    padding: 20px;
   }
 
   table {
