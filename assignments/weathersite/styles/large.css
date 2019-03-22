@@ -39,6 +39,11 @@
         grid-template-columns: 1fr 1fr 1fr;
       }
 
+    #townInfo: {
+        grid-template-columns: 1fr 1fr 1fr;
+
+    }  
+
     .highlight:hover {
         box-shadow: 5px 5px 5px 2px grey;
     }

@@ -3,4 +3,8 @@
     #galleryContainer {
         grid-template-columns: 1fr 1fr;
       }
+
+     #townInfo {
+         grid-template-columns: 1fr 1fr;
+     } 
 }

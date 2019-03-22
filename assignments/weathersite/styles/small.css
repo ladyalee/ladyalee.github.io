@@ -1,12 +1,16 @@
 header {
     background-color: #c6f1e7;
+    text-align: center;
+  }
+
+  header img {
+    padding: 10px;
   }
   
   body{
     background-color: #f0fff3;
   }
   
-
   main {
     clear: left;
   }
@@ -16,6 +20,11 @@ header {
   }
   .navbar {
       background-color: #11cbd7;
+  }
+
+  .navbar a:hover{
+    background-color:#11cbd7;
+    color: black;
   }
   nav ul {
     list-style-type: none;
