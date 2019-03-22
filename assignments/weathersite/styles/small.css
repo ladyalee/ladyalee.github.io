@@ -55,6 +55,11 @@ header {
     display: grid;
   }
 
+  #townInfo {
+    display: grid;
+  }
+  
+
   form div {
     margin-top: 5px;
   }
@@ -126,4 +131,7 @@ header {
       grid-template-columns: 1fr;
     }
 
+    #townInfo {
+      grid-template-columns: 1fr;
+    }
   }
