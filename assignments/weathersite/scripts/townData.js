@@ -35,7 +35,7 @@ for (var i = 0; i < townData.towns.length; i++) {
      } else if (townData.towns[i].name === "Soda Springs") {
          img.setAttribute("src", "images/Sodasprings.jpg");
      } else if (townData.towns[i].name === "Fish Haven") {
-        img.setAttribute("src", "images/fishHaven.jpg");
+        img.setAttribute("src", "images/FishHaven.jpg");
      }
 
       article.appendChild(h1);
