@@ -73,6 +73,17 @@ header {
     margin-top: 5px;
   }
 
+  .weatherSummary {
+    background-color: #c6f1e7;
+    text-align: center;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    border: 1px solid black;
+    margin-right: 80%;
+    margin-left: 5%;
+    padding: 15px;
+  }
+
   section {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -117,6 +128,7 @@ header {
     display: block;
   }
 
+  
 
 
   @media screen and (max-width: 500px) {
