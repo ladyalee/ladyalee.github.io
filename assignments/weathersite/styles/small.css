@@ -128,6 +128,9 @@ header {
     display: block;
   }
 
+  figure {
+    padding-top: 20px;
+  }
   
 
 
