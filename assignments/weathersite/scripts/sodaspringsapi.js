@@ -1,4 +1,4 @@
-var apiWeatherString = 'https://api.openweathermap.org/data/2.5/weather?zip=83287&APPID=93935a5a252e185f91c54e43c8554d32&units=imperial';
+var apiWeatherString = 'https://api.openweathermap.org/data/2.5/weather?zip=83276&APPID=93935a5a252e185f91c54e43c8554d32&units=imperial';
 
 var weatherRequest = new XMLHttpRequest();
 
@@ -30,7 +30,7 @@ function dayName(day) {
     var dayName = weekday[day];
     return dayName;
 }
-var apiForecastString = 'https://api.openweathermap.org/data/2.5/forecast?zip=83287&APPID=93935a5a252e185f91c54e43c8554d32&units=imperial';
+var apiForecastString = 'https://api.openweathermap.org/data/2.5/forecast?zip=83276&APPID=93935a5a252e185f91c54e43c8554d32&units=imperial';
 
 var forecastRequest = new XMLHttpRequest();
 
