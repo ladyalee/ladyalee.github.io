@@ -1,0 +1,47 @@
+{
+    "templeName": "Dallas Texas Temple",
+    "address": "6363 Willow Ln",
+    "city": "Dallas",
+    "State": "TX",
+    "zip": "75230",
+    "country": "United States",
+    
+    "phoneNumber": "972-991-1273",
+    "services": [
+        "service": 
+    ],
+    "history": ,
+    "ordinanceSchedule":
+    "sessionSchedule":, 
+    "closures": [
+        {
+            "start": "2019-04-06",
+            "end": "2019-04-06"
+        },
+        {
+            "start": "2019-04-22",
+            "end": "2019-05-06"
+        },
+        {
+            "start":
+            "end": 
+        }
+        {
+            "start":
+            "end": 
+        }
+        {
+            "start":
+            "end": 
+        }
+        {
+            "start":
+            "end": 
+        }
+        {
+            "start":
+            "end": 
+        }
+    ],
+
+}
