@@ -1,0 +1,31 @@
+header {
+    background-color: ;
+    text-align: center;
+  }
+
+body {
+    background-color: #E1DCD9;
+}
+
+.navbar a:hover{
+    color: #e1dcd9;
+  }
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #a67f78;
+    
+  }
+
+  nav li {
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+  }
+  
+  li {
+    list-style-type: none;
+    float: none;
+    
+  }
