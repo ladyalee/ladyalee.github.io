@@ -5,6 +5,7 @@ header {
 
 body {
     background-color: #E1DCD9;
+    margin: 10px 10px 10px 10px;
 }
 
 .navbar a:hover{
@@ -20,12 +21,28 @@ nav ul {
   }
 
   nav li {
-    border-right: 1px solid black;
-    border-bottom: 1px solid black;
+    border-right: 1px solid #32435f;
+    border-bottom: 1px solid #32435f;
   }
   
   li {
     list-style-type: none;
     float: none;
-    
+  }
+
+  .button {
+    background-color: #669999;
+    border: 1px solid #32435f;
+    color: #e1e1e1;
+    padding: 10px;
+    text-align: center;
+    border-radius: 2px;
+  }
+
+  .button:hover {background-color: #669999}
+
+  .button:active {
+    background-color: #669999;
+    box-shadow: 0 5px #32435f;
+    transform: translateY(4px);
   }
