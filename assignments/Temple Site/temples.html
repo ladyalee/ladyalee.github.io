@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,30 +9,44 @@
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/small.css">
 </head>
+
 <body>
-<header>
-    <h1>Temples</h1>
+    <header>
+        <h1>Temples</h1>
         <nav class="navbar">
             <button id=hamburger onclick="toggleMenu()">&equiv;</button>
             <ul id="menu" class="collapse">
                 <li><a href="index.html">Home</a></li>
                 <li class="active"><a href="temples.html">Temples</a></li>
-                <li ><a href="reservations.html">Reservations</a></li>
-                <li ><a href="services.html">Services</a></li>
+                <li><a href="reservations.html">Reservations</a></li>
+                <li><a href="services.html">Services</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
-</header> 
-<main>
-    <section>
-        <h1>Dallas Texas Temple</h1>
-        <h3>Address:</h3>
-        <p> 6363 Willow Ln<br>
-           Dallas TX, 75230-2227<br>
-           United States</p>
-        <h3>Phone Number:</h3>
-        <p>972-991-1273</p>   
-    </section>
-</main>
+    </header>
+    <main>
+        <section>
+            <h3>Dallas Texas Temple</h1>
+            <img src="images/dallas_small.jpg" alt="Dallas Texas Temple">
+            <strong>Address:</strong>
+            <p> 6363 Willow Ln<br>
+                Dallas TX, 75230-2227<br>
+                United States</p>
+            <strong>Phone Number:</strong> 972-991-1273
+        </section>
+        <section id="templeClosures">
+
+        </section>
+            <h3>Nashville Tennessee Temple</h3>
+            <strong>Address:</strong>
+            <p>1100 Gray Fox Ln<br>
+            Franklin TN 37069<br>
+        United States</p>
+        <strong>Phone Number:</strong> 615-791-8668
+        <section>
+
+        </section>
+    </main>
 </body>
+<script src="scripts/templeinfo.js"></script>
 </html>

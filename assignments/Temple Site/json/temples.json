@@ -1,4 +1,4 @@
-{
+[{
     "templeName": "Dallas Texas Temple",
     "address": "6363 Willow Ln",
     "city": "Dallas",
@@ -44,4 +44,5 @@
         }
     ],
 
-}
+},
+]
