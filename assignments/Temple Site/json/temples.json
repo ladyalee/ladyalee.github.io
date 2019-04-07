@@ -1,6 +1,7 @@
-
-    "templeName": "Dallas Texas Temple",
- 
+{
+        "templeName": ["Dallas Texas Temple", "Nashville Tennessee Temple", "Manti Utah Temple", "Billings Montana Temple"]
+    }
+    {
     "dallasClosures": [
         {
             "start": "2019-04-06",
@@ -31,5 +32,4 @@
             "end": "2019-12-31"
         },
     ],
-
-},
+    } 

@@ -6,6 +6,8 @@ request.send();
 request.onload = function() {
   var closures = request.response;
  
-console.log{closures.start};
+closures = {
+  "dallasClosures",
+};
 }
 
