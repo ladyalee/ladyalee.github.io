@@ -4,14 +4,16 @@ request.open('GET', requestURL, true);
 request.responseType = 'json';
 request.send();
 request.onload = function() {
-  var closures = request.response;
+  var templeInfo = request.response;
 
-console.log(closures);
-return;
+var closuresUL = document.createElement("ul");
+var closuresLI;
 
-document.getElementById("closures")  
- 
-
-
+for (var i = 0; i < templeInfo[0].closures.length; i++) {
+    closuresLI = document.createElement("li");
+    closuresLI.innerHTML = templeInfo[0].closures[i].start + " to " + templeInfo[0].closures[i].end;
+    closuresUL.appendChild(closuresLI);
+}
+document.getElementById("templeClosures").appendChild(closuresUL);
 }
 
