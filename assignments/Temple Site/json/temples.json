@@ -1,8 +1,8 @@
-{
-        "templeName": ["Dallas Texas Temple", "Nashville Tennessee Temple", "Manti Utah Temple", "Billings Montana Temple"]
-    }
+[
     {
-    "dallasClosures": [
+     "templeName": "Dallas Texas Temple", 
+   
+    "closures": [
         {
             "start": "2019-04-06",
             "end": "2019-04-06"
@@ -33,3 +33,109 @@
         },
     ],
     } 
+
+    {
+        "templeName": "Nashville Tennessee Temple", 
+      
+       "closures": [
+           {
+               "start": "2019-05-06",
+               "end": "2019-05-20"
+           },
+           {
+               "start": "2019-07-04",
+               "end": "2019-07-04"
+           },
+           {
+               "start": "2019-10-05",
+               "end": "2019-10-05"
+           },
+           {
+               "start": "2019-11-04",
+               "end": "2019-11-18"
+           },
+           {
+               "start": "2019-12-24",
+               "end": "2019-12-25"
+           },
+           {
+               "start": "2019-12-31",
+               "end": "2019-12-31"
+           },
+       ],
+       } 
+
+       {
+        "templeName": "Manti Utah Temple", 
+      
+       "closures": [
+           {
+               "start": "2019-06-08",
+               "end": "2019-06-22"
+           },
+           {
+               "start": "2019-07-04",
+               "end": "2019-07-04"
+           },
+           {
+               "start": "2019-07-24",
+               "end": "2019-07-24"
+           },
+           {
+               "start": "2019-08-06",
+               "end": "2019-08-19"
+           },
+           {
+               "start": "2019-10-05",
+               "end": "2019-10-05"
+           }
+           {
+               "start": "2019-11-28",
+               "end": "2019-11-28"
+           }
+           {
+               "start": "2019-12-24",
+               "end": "2019-12-26"
+           },
+           {
+               "start": "2019-12-31",
+               "end": "2019-12-31"
+           },
+       ],
+       } 
+
+       {
+        "templeName": "Billings Montana Temple", 
+      
+       "closures": [
+           {
+               "start": "2019-05-06",
+               "end": "2019-05-20"
+           },
+           {
+               "start": "2019-07-04",
+               "end": "2019-07-04"
+           },
+           {
+               "start": "2019-10-05",
+               "end": "2019-10-05"
+           }
+           {
+               "start": "2019-11-04",
+               "end": "2019-11-11"
+           },
+           {
+               "start": "2019-11-28",
+               "end": "2019-11-28"
+           },
+           {
+               "start": "2019-12-24",
+               "end": "2019-12-25"
+           },
+           {
+               "start": "2019-12-31",
+               "end": "2019-12-31"
+           },
+       ],
+       } 
+]
