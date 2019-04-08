@@ -14,6 +14,8 @@ for (var i = 0; i < templeInfo[0].closures.length; i++) {
     closuresLI.innerHTML = templeInfo[0].closures[i].start + " to " + templeInfo[0].closures[i].end;
     closuresUL.appendChild(closuresLI);
 }
-document.getElementById("templeClosures").appendChild(closuresUL);
+
+document.getElementById("templeClosures1").appendChild(closuresUL);
+
 }
 
