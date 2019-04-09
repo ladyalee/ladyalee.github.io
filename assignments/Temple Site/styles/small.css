@@ -46,3 +46,7 @@ nav ul {
     box-shadow: 0 5px #32435f;
     transform: translateY(4px);
   }
+
+  img {
+    display: block;
+  }
