@@ -1,15 +1,13 @@
-var currentWeather = 'http://api.openweathermap.org/data/2.5/weather?id=5604473&APPID=93935a5a252e185f91c54e43c8554d32&units=imperial';
+var dallasWeather = 'https://api.openweathermap.org/data/2.5/weather?zip=75230,us&appid=93935a5a252e185f91c54e43c8554d32&units=imperial';
+var dallasRequest = new XMLHttpRequest();
 
-var weatherRequest = new XMLHttpRequest();
+dallasRequest.open('GET', dallasWeather, true);
+dallasRequest.responseType = 'json';
+dallasRequest.send();
 
-weatherRequest.open('GET', currentWeather, true);
-weatherRequest.responseType = 'json';
-weatherRequest.send();
+dallasRequest.onload = function (){
+    var dallasData = dallasRequest.response;
 
-weatherRequest.onload = function (){
-    var weatherData = weatherRequest.response;
+console.log(dallasData);
 
-console.log(weatherData);
-
-document.getElementById("current-temp").innerHTML = weatherData.main.temp;
 }
