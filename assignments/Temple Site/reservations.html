@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,89 +9,87 @@
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/small.css">
 </head>
+
 <body>
     <header>
         <h1>Reservations</h1>
         <nav class="navbar">
             <button id=hamburger onclick="toggleMenu()">&equiv;</button>
-                <ul id="menu" class="collapse">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="temples.html">Temples</a></li>
-                    <li class="active" ><a href="reservations.html">Reservations</a></li>
-                    <li ><a href="services.html">Services</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
+            <ul id="menu" class="collapse">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="temples.html">Temples</a></li>
+                <li class="active"><a href="reservations.html">Reservations</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
         </nav>
     </header>
     <main>
         <h1>Make your reservation now:</h1>
         <form action="thanks.html" method="GET">
             <div>
+                <label class="reservations" for="location">Temple:</label>
+                <select name="region">
+                    <option value="">Please Select</option>
+                    <option value="Dallas">Dallas, Texas</option>
+                    <option value="Nashville">Nashville, Tennesee</option>
+                    <option value="Manti">Manti, Utah</option>
+            </div>
+            <div>
+                <label class="reservations" for="date">Date</label>
+                <input type="date" id="date" name="date" />
+            </div>
+            <div>
+                <label class="rooms" for="numberRooms">Number of Rooms: </label>
+                <input type="range" name="rooms" min="1" max="3" />
+            </div>
+            <div>
+                <label class="rooms" for="roomType" value="roomType">Room Type: 
+                    <input type="radio" name="roomType" value="Queen"> 2 Queens
+                    <input type="radio" name="dangerLevel" value="king"> 1 King
+                    <input type="radio" name="dangerLevel" value="suite"> Suite
+            </div>
+            <div>
                 <label class="reservations" for="fullName">Full Name* </label>
                 <input type="text" id="fullName" name="fullname" required>
             </div>
 
             <div>
-                <label class="reservations"for="email">Email:</label> 
-                <input type="email" id="email" name="email" placeholder="demo@gmail.com"/>
+                <label class="reservations" for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="demo@gmail.com" />
             </div>
 
             <div>
-                <label class="reservations"for="phone">Phone Number* </label>
-                <input type="tel" name="phone" required/>
-            </div> 
-            
-            <div>
-                <label class="reservations"for="zipCode">Zip Code* </label>
-                <input type="number" name="zipCode" required/>
-            </div> 
-            
-            <div>
-                <label class="reservations"for=""></label>
-                <input type="date" id="" name=""/>
+                <label class="reservations" for="phone">Phone Number* </label>
+                <input type="tel" name="phone" required />
             </div>
 
             <div>
-                <label class="reservations"for=""></label>
-                <input list="" name=""/>
+                <label class="reservations" for="zipCode">Zip Code* </label>
+                <input type="number" name="zipCode" required />
+            </div>
+
+            <div>
+                <label class="reservations" for=""></label>
+                <input list="" name="" />
                 <datalist id="">
-                        <option value="Flash Flood">
-                        <option value="Hail">
-                        <option value="Hurricane">
-                        <option value="Thunderstorm">
-                        <option value="Tornado">
-                </datalist> 
+                    <option value="Flash Flood">
+                    <option value="Hail">
+                    <option value="Hurricane">
+                    <option value="Thunderstorm">
+                    <option value="Tornado">
+                </datalist>
             </div>
 
-            <div>
-                <label class="storm"for="stormSeverity">Storm Severity</label>
-                <input type="range" name="stormSeverity" min="1" max="10"/>
-            </div>
 
-            <div>
-                <label class="storm"for="stormRegion">Storm Region</label>
-                    <select name="region">
-                        <option value="">Please Select</option>
-                        <option value="Preston">Preston</option>
-                        <option value="sodaSprings">Soda Springs</option>
-                        <option value="fishHaven">Fish Haven</option>      
-            </div>
-
-             <div>
-                <label class="storm"for="dangerLevel" value="dangerLevel">User in-danger 
-                    <input type="radio" name="dangerLevel" value="yes"> yes
-                    <input type="radio" name="dangerLevel" value="maybe"> maybe
-                    <input type="radio" name="dangerLevel" value="no"> no
-            </div>        
-            
-
-            <div>Special accomodations/comments</div>
-                <textarea rows="4" cols="50"></textarea>
-                <input type="submit" value="Submit" class="submit">
+            <div>Special accomodations/comments:</div>
+            <textarea rows="4" cols="50"></textarea>
+            <input type="submit" value="Submit" class="submit">
             </div>
 
         </form>
 
 
 </body>
+
 </html>
