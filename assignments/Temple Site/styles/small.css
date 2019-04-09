@@ -1,3 +1,7 @@
+h1 {
+  font-family: 'Playfair Display', serif;
+}
+
 header {
     background-color: ;
     text-align: center;
@@ -6,6 +10,7 @@ header {
 body {
     background-color: #E1DCD9;
     margin: 10px 10px 10px 10px;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .navbar a:hover{
