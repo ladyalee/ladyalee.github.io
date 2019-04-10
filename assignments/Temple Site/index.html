@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,37 +10,43 @@
     <link rel="stylesheet" href="styles/small.css">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700i|Source+Sans+Pro" rel="stylesheet">
 </head>
+
 <body>
-<header>
-    <h1>Temple Inn & Suites</h1>
-    <nav class="navbar">
-        <button id=hamburger onclick="toggleMenu()">&equiv;</button>
-        <ul id="menu" class="collapse">
-            <li class="active"><a href="#">Home</a></li>
-            <li class="#"><a href="temples.html">Temples</a></li>
-            <li ><a href="reservations.html">Reservations</a></li>
-            <li ><a href="services.html">Services</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
-</header>
-<main>
+    <header>
+        <h1>Temple Inn & Suites</h1>
+        <nav class="navbar">
+            <button id=hamburger onclick="toggleMenu()">&equiv;</button>
+            <ul id="menu" class="collapse">
+                <li class="active"><a href="#">Home</a></li>
+                <li class="#"><a href="temples.html">Temples</a></li>
+                <li><a href="reservations.html">Reservations</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
         <figure>
-                <img src="images/kansas-city-temple-small.jpg" alt="LDS Kansas City Missouri Temple"
-                     srcset="
+            <img src="images/kansas-city-temple-small.jpg" alt="LDS Kansas City Missouri Temple" srcset="
                         images/kansas-city-temple-small.jpg 400w,
                         images/kansas-medium.jpg 700w,
-                        images/kansas-large.jpg 1200">      
-            </figure>
-        <article> The Kansas City Temple is located in Missouri and is the 137th operating temple for <i>The Church of Jesus Christ of Latter 
-            Day Saints</i>. It was dedicated on May 6, 2012 by President Thomas S. Monson. Sitting just west of Liberty
-            Jail with its two majestic double towers. Many trees and flowers cover the ground for both attendees and the public 
+                        images/kansas-large.jpg 1200">
+        </figure>
+        <article> The Kansas City Temple is located in Missouri and is the 137th operating temple for <i>The Church of
+                Jesus Christ of Latter
+                Day Saints</i>. It was dedicated on May 6, 2012 by President Thomas S. Monson. Sitting just west of
+            Liberty
+            Jail with its two majestic double towers. Many trees and flowers cover the ground for both attendees and
+            the public
             to enjoy.
         </article>
         <a href="reservations.html"><button class="button" type="button">Reserve Now!</button></a>
-</main>
+    </main>
     <footer>
-        
+        <p>&copy; 2019 Temple Inn & Suites | 4800 Montgomery Ln #300, Bethesda, MD 20814</p>
+        <span id="currentDate"></span>
     </footer>
+    <script src="scripts/currentDate.js"></script>
 </body>
+
 </html>
