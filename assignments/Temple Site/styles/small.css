@@ -35,10 +35,10 @@ nav ul {
   nav li {
     border-right: 1px solid #32435f;
     border-bottom: 1px solid #32435f;
+    list-style-type: none;
   }
   
   li {
-    list-style-type: none;
     float: none;
   }
 
