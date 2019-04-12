@@ -104,7 +104,16 @@ input[type=text], select, textarea {
 }
 
 #reservation {
+  display: flex;
+  flex-direction: column;
   padding: 50px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#reservation input {
+  flex-grow: 1;
+  margin: 10px;
 }
 
 .contactForm {
