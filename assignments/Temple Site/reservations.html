@@ -26,7 +26,7 @@
     </header>
     <main>
         <h1>Make your reservation now:</h1>
-        <form action="thanks.html" method="GET">
+        <form id="reservation" action="thanks.html" method="GET">
             <div>
                 <label class="reservations" for="location">Temple:</label>
                 <select name="region">
@@ -34,6 +34,7 @@
                     <option value="Dallas">Dallas, Texas</option>
                     <option value="Nashville">Nashville, Tennesee</option>
                     <option value="Manti">Manti, Utah</option>
+                    <option value="Billings">Billings, Montana</option>
             </div>
             
             <div>
@@ -80,6 +81,7 @@
 <footer>
         <p>&copy; 2019 Temple Inn & Suites | 4800 Montgomery Ln #300, Bethesda, MD 20814</p>
         <span id="currentDate"></span>
+        <img class="logo" src="images/logo.jpeg" alt="Logo" width="50">
 </footer>
 <script src= "scripts/currentDate.js"></script>
 </html>

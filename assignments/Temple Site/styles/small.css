@@ -14,12 +14,19 @@ body {
 }
 
 footer {
-  background-color: #a67f78;
+  background-color: #669999;
   text-align: center;
   margin: 10px;
   padding: 10px;
 }
 
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 5%;
+  padding: 10px;
+}
 .navbar a:hover{
     color: #e1dcd9;
   }
@@ -28,7 +35,7 @@ nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: #a67f78;
+    background-color: #669999;
     
   }
 
@@ -42,8 +49,20 @@ nav ul {
     float: none;
   }
 
+  a:link {
+    color: #e1dcd9;
+  }
+  
+  a:hover {
+    color: white;
+  }
+  
+  a:active {
+    color: #32435f;
+  }
+
   .button {
-    background-color: #669999;
+    background-color: #a67f78;
     border: 1px solid #32435f;
     color: #e1e1e1;
     padding: 10px;
@@ -52,10 +71,10 @@ nav ul {
     margin: 10px;
   }
 
-  .button:hover {background-color: #669999}
+  .button:hover {background-color: #a67f78;}
 
   .button:active {
-    background-color: #669999;
+    background-color: #a67f78;
     box-shadow: 0 5px #32435f;
     transform: translateY(4px);
   }
@@ -65,26 +84,27 @@ nav ul {
     
   }
 
-  /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
-  width: 100%; /* Full width */
-  padding: 12px; /* Some padding */  
-  border: 1px solid #ccc; /* Gray border */
-  border-radius: 4px; /* Rounded borders */
-  box-sizing: border-box; /* Make sure that padding and width stays in place */
-  margin-top: 6px; /* Add a top margin */
-  margin-bottom: 16px; /* Bottom margin */
-  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  width: 100%; 
+  padding: 10px;  
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 5px; 
+  margin-bottom: 15px; 
 }
 
-/* Style the submit button with a specific background color etc */
-input[type=submit] {
-  background-color: #669999;
+ input[type=submit] {
+  background-color: #a67f78;
   color: white;
   padding: 15px 23px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+}
+
+#reservation {
+  padding: 50px;
 }
 
 .contactForm {
@@ -106,4 +126,7 @@ input[type=submit] {
       display: block;
     }
 
+    #templeContainer {
+      grid-template-columns: 1fr;
+    }
   }
