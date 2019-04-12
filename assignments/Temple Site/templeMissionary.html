@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,15 +23,36 @@
         </ul>
     </nav>
 </header>
+
 <body>
-    <p>For our guests currently serving full time missions, we offer luxiourious suites to 
-        accomodate your needs to make sure that you are able to focus on your mission. For those interested in more 
-    information, please fill the contact form out below:</p>
+    <p>For our guests currently serving full time missions, we offer luxiourious suites to
+        accomodate your needs to make sure that you are able to focus on your mission. For those interested in more
+        information, please fill the contact form out below:</p>
+
+    <div class="contactForm">
+        <form action="action_page.php">
+
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+           
+            <label class="details" for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="demo@gmail.com" />
+
+            </form>
+
+            <input type="submit" value="Please send me more details">
+
+        </form>
+    </div>
 </body>
 <footer>
-        <p>&copy; 2019 Temple Inn & Suites | 4800 Montgomery Ln #300, Bethesda, MD 20814</p>
-        <span id="currentDate"></span>
-        <img class="logo" src="images/logo.jpeg" alt="Logo" width="50">
+    <p>&copy; 2019 Temple Inn & Suites | 4800 Montgomery Ln #300, Bethesda, MD 20814</p>
+    <span id="currentDate"></span>
+    <img class="logo" src="images/logo.jpeg" alt="Logo" width="50">
 </footer>
-<script src= "scripts/currentDate.js"></script>
+<script src="scripts/currentDate.js"></script>
+
 </html>
