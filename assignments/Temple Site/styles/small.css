@@ -2,6 +2,10 @@ h1 {
   font-family: 'Playfair Display', serif;
 }
 
+p {
+  font-family: 'Source Sans Pro', sans-serif; 
+}
+
 header {
     background-color:#E1DCD9 ;
     text-align: center;
